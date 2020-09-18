@@ -1,4 +1,5 @@
 import React from 'react';
+import kapilimg from './images/logo.jpg';
 
 
 
@@ -15,33 +16,37 @@ const Team = () =>{
        <div className="row">
         <div className="col-10 mx-auto">
             <div className="hello">
-            <table className="table">
+            <table className="table table-bordered">
   <thead className="thead-dark">
-    <tr>
+    <tr class="table-primary">
       <th scope="col">#</th>
+      <th scope="col">Profile</th>
       <th scope="col">First</th>
       <th scope="col">Last</th>
       <th scope="col">Developer</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr class="bg-warning">
       <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>Reactjs</td>
+      <td className="hello1"><img src={kapilimg} className="img-fluid" alt="kapil" /></td>
+      <td>Kapil Matre</td>
+      <td className="bg-secondary"> Matre</td>
+      <td className="bg-info">FrontEnd Developer</td>
     </tr>
-    <tr>
+    <tr class="bg-warning">
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>Angular</td>
+      <td className="hello1"><img src={kapilimg} className="img-fluid" alt="Hitesh" /></td>
+      <td>Hitesh</td>
+      <td className="bg-secondary"> Matre</td>
+      <td className="bg-info">BackEnd  Developer</td>
     </tr>
-    <tr>
+    <tr class="bg-warning">
       <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>Bootstrap</td>
+      <td className="hello1"><img src={kapilimg} className="img-fluid" alt="Sachin" /></td>
+      <td>Sachin</td>
+      <td className="bg-secondary">Matre</td>
+      <td className="bg-info">Civil engineering </td>
     </tr>
   </tbody>
 </table>
