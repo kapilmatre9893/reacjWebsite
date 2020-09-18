@@ -32,8 +32,8 @@ const Navbar = () => {
       <li className="nav-item">
         <NavLink activeClassName="menu_active" exact className="nav-link" to="/contact">Contact</NavLink>
       </li>
-    </ul>
-  </div>
+   </ul>
+</div>
 </nav>
 </div>
 </div>

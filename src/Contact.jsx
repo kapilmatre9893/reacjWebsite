@@ -14,6 +14,7 @@ const Contact = () =>{
             return {
                 ...prevel,
                 [name]:value,
+                
             }
         })
 
