@@ -9,7 +9,7 @@ const Carou = () =>{
     return (
         <>
            <div className="container">
-             <h1>kapil</h1>
+             <h1 className="kapil">kapil</h1>
         <div className="row">
       <Carousel>
   <Carousel.Item>
