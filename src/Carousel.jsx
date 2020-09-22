@@ -1,53 +1,90 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import { NavLink } from 'react-router-dom';
-import  Si1 from "../src/images/side1.jpeg";
-import  Si3 from "../src/images/side3.jpeg";
-import  Si2 from "../src/images/silde2.jpeg";
+
+
+
+import Card from './Card';
+import Sdata from './Sdata';
+
 const Carou = () =>{
 
     return (
         <>
-           <div className="container">
-             <h1 className="kapil">kapil</h1>
+          <div className="my-5">
+      <h1 className="text-center"> Our Services</h1>
+      </div>
+      <div className="container-fluid mb-5">
+          
         <div className="row">
+        <div className="col-12 mx-auto">
+       
       <Carousel>
   <Carousel.Item>
-  <div className="card">
-  <img className="card-img-top" src={Si3} alt="Cardimagecap" />
-  <div className="card-body">
-    <h5 className="card-title font-weight-bold">kjdbsajkdb</h5>
-  <p className="card-text">dnsdfnskafnsa</p>
-    <NavLink to="/contact" className="btn btn-primary">Go somewhere</NavLink>
-  </div>
-
-</div>
-  </Carousel.Item>
-  <Carousel.Item>
-  <div className="card">
-  <img className="card-img-top" src={Si2} alt="Cardimagecap" />
-  <div className="card-body">
-    <h5 className="card-title font-weight-bold">kjdbsajkdb</h5>
-  <p className="card-text">dnsdfnskafnsa</p>
-    <NavLink to="/contact" className="btn btn-primary">Go somewhere</NavLink>
-  </div>
-
-</div>
-  </Carousel.Item>
-  <Carousel.Item>
   
-  <div className="card">
-  <img className="card-img-top" src={Si1} alt="Cardimagecap" />
-  <div className="card-body">
-    <h5 className="card-title font-weight-bold">kjdbsajkdb</h5>
-  <p className="card-text">dnsdfnskafnsa</p>
-    <NavLink to="/contact" className="btn btn-primary">Go somewhere</NavLink>
-  </div>
+    <div className="d-flex aling-item-center">
+    <div className="row gy-4">
+
+<Card imgsrc={Sdata[0].imgsrc}
+      title={Sdata[0].title}
+      text={Sdata[0].text}    
+/>
+<Card imgsrc={Sdata[1].imgsrc}
+      title={Sdata[1].title}
+      text={Sdata[1].text}    
+/>
+<Card imgsrc={Sdata[3].imgsrc}
+      title={Sdata[3].title}
+      text={Sdata[3].text}    
+/>
+</div>
+</div>
+
+  </Carousel.Item>
+  <Carousel.Item>
+
+   
+  <div className="d-flex aling-item-center">
+  <div className="row gy-4">
+
+<Card imgsrc={Sdata[0].imgsrc}
+      title={Sdata[0].title}
+      text={Sdata[0].text}    
+/>
+<Card imgsrc={Sdata[1].imgsrc}
+      title={Sdata[1].title}
+      text={Sdata[1].text}    
+/>
+<Card imgsrc={Sdata[3].imgsrc}
+      title={Sdata[3].title}
+      text={Sdata[3].text}    
+/>
+</div>
+</div>
+  </Carousel.Item>
+  <Carousel.Item>
+  <div className="d-flex aling-item-center">
+  <div className="row gy-4">
+
+<Card imgsrc={Sdata[0].imgsrc}
+      title={Sdata[0].title}
+      text={Sdata[0].text}    
+/>
+<Card imgsrc={Sdata[1].imgsrc}
+      title={Sdata[1].title}
+      text={Sdata[1].text}    
+/>
+<Card imgsrc={Sdata[3].imgsrc}
+      title={Sdata[3].title}
+      text={Sdata[3].text}    
+/>
+</div>
 </div>
   </Carousel.Item>
 </Carousel>
 </div>
 </div>
+</div>
+
         </>
     );
 

@@ -122,15 +122,11 @@ footer p{
 
 /* carousel  page */
 
-/* 
-.carousel-item img{
- width: auto;
- height: 245px;
- max-height: 245px;
- margin: auto; 
- display: block;
+
+.carousel-item .card{
+  margin-right: auto;
  }
- */
+ 
 
 /* medio  page */
 @media(max-width:991px){
