@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/reacjWebsite/static/css/main.f5b1b242.chunk.css",
-    "main.js": "/reacjWebsite/static/js/main.b9d37afc.chunk.js",
-    "main.js.map": "/reacjWebsite/static/js/main.b9d37afc.chunk.js.map",
+    "main.css": "/reacjWebsite/static/css/main.1f1c78d2.chunk.css",
+    "main.js": "/reacjWebsite/static/js/main.1bfb7f81.chunk.js",
+    "main.js.map": "/reacjWebsite/static/js/main.1bfb7f81.chunk.js.map",
     "runtime-main.js": "/reacjWebsite/static/js/runtime-main.9bcac9bb.js",
     "runtime-main.js.map": "/reacjWebsite/static/js/runtime-main.9bcac9bb.js.map",
     "static/css/2.ea6b7726.chunk.css": "/reacjWebsite/static/css/2.ea6b7726.chunk.css",
-    "static/js/2.cf06f042.chunk.js": "/reacjWebsite/static/js/2.cf06f042.chunk.js",
-    "static/js/2.cf06f042.chunk.js.map": "/reacjWebsite/static/js/2.cf06f042.chunk.js.map",
+    "static/js/2.a5fc20cb.chunk.js": "/reacjWebsite/static/js/2.a5fc20cb.chunk.js",
+    "static/js/2.a5fc20cb.chunk.js.map": "/reacjWebsite/static/js/2.a5fc20cb.chunk.js.map",
     "index.html": "/reacjWebsite/index.html",
-    "precache-manifest.cc5b82c02228bb829eead99fad33b2d1.js": "/reacjWebsite/precache-manifest.cc5b82c02228bb829eead99fad33b2d1.js",
+    "precache-manifest.40d2070f21101d7d4464796cbd7b330d.js": "/reacjWebsite/precache-manifest.40d2070f21101d7d4464796cbd7b330d.js",
     "service-worker.js": "/reacjWebsite/service-worker.js",
     "static/css/2.ea6b7726.chunk.css.map": "/reacjWebsite/static/css/2.ea6b7726.chunk.css.map",
-    "static/css/main.f5b1b242.chunk.css.map": "/reacjWebsite/static/css/main.f5b1b242.chunk.css.map",
-    "static/js/2.cf06f042.chunk.js.LICENSE.txt": "/reacjWebsite/static/js/2.cf06f042.chunk.js.LICENSE.txt",
+    "static/css/main.1f1c78d2.chunk.css.map": "/reacjWebsite/static/css/main.1f1c78d2.chunk.css.map",
+    "static/js/2.a5fc20cb.chunk.js.LICENSE.txt": "/reacjWebsite/static/js/2.a5fc20cb.chunk.js.LICENSE.txt",
     "static/media/app.png": "/reacjWebsite/static/media/app.e8e8d2c9.png",
     "static/media/digi.jpeg": "/reacjWebsite/static/media/digi.89d1bfb9.jpeg",
     "static/media/home.png": "/reacjWebsite/static/media/home.75b14e0d.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.9bcac9bb.js",
     "static/css/2.ea6b7726.chunk.css",
-    "static/js/2.cf06f042.chunk.js",
-    "static/css/main.f5b1b242.chunk.css",
-    "static/js/main.b9d37afc.chunk.js"
+    "static/js/2.a5fc20cb.chunk.js",
+    "static/css/main.1f1c78d2.chunk.css",
+    "static/js/main.1bfb7f81.chunk.js"
   ]
 }
