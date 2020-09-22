@@ -7,7 +7,7 @@ const About = () =>{
 
 return(
     <>
-   <Comman name="Welcome To About Page" 
+   <Comman name="Welcome To Dark Web Page" 
    imgsec={Web} 
    visit="/contact" 
    btname="Contact Now" 

@@ -12,7 +12,7 @@ return(
   <div className="card-body">
   <h5 className="card-title font-weight-bold">{props.title}</h5>
   <p className="card-text">{props.text}</p>
-    <NavLink to="/contact" class="btn btn-primary">Go somewhere</NavLink>
+    <NavLink to="/contact" className="btn btn-primary">Go somewhere</NavLink>
   </div>
 </div>
 </div>    

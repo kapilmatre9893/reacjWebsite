@@ -9,8 +9,8 @@ const Navbar = () => {
             <div className="row">
                 <div className="col-10 mx-auto">
               
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <NavLink  exact className="navbar-brand" to="/"><img src={logo} className="img-fluid" alt="logimg" />Dark Web</NavLink>
+        <nav className="navbar navbar-expand-lg navbar-light bg-light all">
+  <NavLink  exact className="navbar-brand" to="/"><img src={logo} className="img-fluid" alt="logimg" /><span>Dark Web</span></NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
