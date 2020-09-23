@@ -80,7 +80,7 @@ const LOGIN = () =>{
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
             />
-            <NavLink exact to="/Web">
+            <NavLink exact to="/Mainpage">
             <Button
             type="submit"
             fullWidth

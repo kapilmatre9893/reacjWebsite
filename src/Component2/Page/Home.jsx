@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Comman from './Comman';
-import Web from '../src/images/home.png';
+import Web from 'src/images/home.png';
 import Carousel from './Carousel';
 
 const Home = () =>{

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import kapilimg from './images/logo.jpg';
+import kapilimg from 'src/images/logo.jpg';
 import axios from 'axios';
 
 

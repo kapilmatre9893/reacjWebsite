@@ -1,13 +1,13 @@
 import React from 'react';
-import Home from './Home';
+import Home from './Page/Home';
 import { Switch, Route } from 'react-router-dom';
-import About from './About';
-import Service from './Service';
-import Contact from './Contact';
-import Team from './Team';
-import Login from './Component/Login';
-import Signup from './Component/Signup';
-import  Web from './wEB/wEB';
+import About from './Page/About';
+import Service from './Page/Service';
+import Contact from './Page/Contact';
+import Team from './Page/Team';
+import Login from '../Component1/Login';
+import Signup from '../Component1/Signup';
+import  Mainpage from './Main';
 
 
 
@@ -17,7 +17,7 @@ const Routi = () =>{
 <Switch>
          <Route exact path='/Login' component={Login} />
          <Route exact path='/Sig' component={Signup} />
-         <Route exact path='/Web' component={Web} />
+         <Route exact path='/Mainpage' component={Mainpage} />
          <Route exact  path='/home' component={Home} />
       <Route exact path='/about' component={About} />
       <Route exact path='/service' component={Service} />
