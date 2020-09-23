@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from "react-router-dom";
-import Login from './Component/Login';
-import Signup from './Component/Signup';
+
 
 
 ReactDOM.render(

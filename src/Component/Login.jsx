@@ -19,7 +19,7 @@ import { NavLink } from 'react-router-dom';
 
 const  useStyles = makeStyles((theme)=>({
   paper: {
-    marginTop: theme.spacing(8),
+    marginTop: theme.spacing(5),
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -80,15 +80,17 @@ const LOGIN = () =>{
             control={<Checkbox value="remember" color="primary" />}
             label="Remember me"
             />
+            <NavLink exact to="/Web">
             <Button
             type="submit"
             fullWidth
             variant="contained"
             color="primary"
-            className={classes.submit}
+            className={classes.submit} 
             >
             LogInS
           </Button>
+          </NavLink>
           <Grid container>
             <Grid item xs>
               <Link href="#" variant="body2">
@@ -96,7 +98,7 @@ const LOGIN = () =>{
               </Link>
             </Grid>
             <Grid item>
-              <NavLink exact to="/Signup" variant="body2">
+              <NavLink exact to="/Sig" variant="body2">
                 {"Don't have an account? Sign Up"}
               </NavLink>
             </Grid>
