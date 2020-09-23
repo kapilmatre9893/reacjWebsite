@@ -9,7 +9,7 @@ import About from './About';
 import Service from './Service';
 import Contact from './Contact';
 import Navbar from './Navbar';
-import footer from './footer';
+import Footer from './footer';
 import Team from './Team';
 
 import './App.css';
@@ -25,7 +25,7 @@ function App() {
       <Route exact path='/team' component={Team} />
       <Route exact path='/contact' component={Contact} />
     </Switch>
-    <footer />
+    <Footer />
     </>
   );
 }
