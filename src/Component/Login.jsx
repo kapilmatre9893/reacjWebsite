@@ -7,11 +7,14 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
+
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import { Form } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+
 
 
 const  useStyles = makeStyles((theme)=>({
@@ -37,12 +40,69 @@ const  useStyles = makeStyles((theme)=>({
 
 
 const LOGIN = () =>{
+  const classes = useStyles();
+
   return (
     <>
     <Container component="main" maxWidth="xs">
       <CssBaseline />
-      <div className={}>
-        </div>
+      <div className={classes.paper}>
+        <Avatar className={classes.avatar}>
+        <LockOutlinedIcon />
+        </Avatar>
+        <Typography component="h1" variant="h5">
+          LOGIN
+        </Typography>
+        <Form className={classes.form}>
+
+          <TextField 
+           variant="outlined"
+           margin="normal"
+           required
+           fullWidth
+           id="email"
+           label="Email Address"
+           name="email"
+           autoCapitalize="email"
+         />
+             <TextField
+            variant="outlined"
+            margin="normal"
+            required
+            fullWidth
+            name="password"
+            label="Password"
+            type="password"
+            id="password"
+            autoComplete="current-password"
+          />
+            <FormControlLabel
+            control={<Checkbox value="remember" color="primary" />}
+            label="Remember me"
+            />
+            <Button
+            type="submit"
+            fullWidth
+            variant="contained"
+            color="primary"
+            className={classes.submit}
+            >
+            LogInS
+          </Button>
+          <Grid container>
+            <Grid item xs>
+              <Link href="#" variant="body2">
+                Forgot password?
+              </Link>
+            </Grid>
+            <Grid item>
+              <NavLink exact to="/Signup" variant="body2">
+                {"Don't have an account? Sign Up"}
+              </NavLink>
+            </Grid>
+          </Grid>
+        </Form>
+      </div>
     </Container>
     </>
   );
