@@ -11,9 +11,9 @@ import Mainpage from '../Component2/Main';
     return(
         <>
          <Switch>
-         <Route exact path='/Login' component={Login} />
+         <Route exact path='/login' component={Login} />
          <Route exact path='/Sig' component={Signup} />
-         <Route exact path='/Mainpage' component={Mainpage} />
+         <Route exact path='/mainpage' component={Mainpage} />
          </Switch> 
         </>
     );

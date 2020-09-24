@@ -1,6 +1,6 @@
 import React from 'react';
 import Comman  from './Comman';
-import Web from 'src/images/home2.png'
+import Web from '../../images/home2.png'
 
  
 const About = () =>{

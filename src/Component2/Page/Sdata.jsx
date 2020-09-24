@@ -1,9 +1,9 @@
-import webdegine from 'src/images/web degine.jpeg';
-import Webdev from 'src/images/wdevelp.jpeg';
-import Software from 'src/images/software.jpg';
-import Digi from 'src/images/digi.jpeg';
-import Markting from 'src/images/marking.jpeg';
-import App from 'src/images/app.png';
+import webdegine from '../../images/web degine.jpeg';
+import Webdev from '../../images/wdevelp.jpeg';
+import Software from '../../images/software.jpg';
+import Digi from '../../images/digi.jpeg';
+import Markting from '../../images/marking.jpeg';
+import App from '../../images/app.png';
 
 
  const Sdata =[
